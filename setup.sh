@@ -18,11 +18,13 @@ brew bundle install
 
 
 # setup github username and email
-git config --global --add user.email "107491133+pradeep1402@users.noreply.github.com"
-git config --global --add user.name "Pradeep"
+# git config --global --add user.email "107491133+pradeep1402@users.noreply.github.com"
+# git config --global --add user.name "Pradeep"
 
 
 # Setup zsh syntax hightlighting
 echo 'source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
 echo 'export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/opt/homebrew/share/zsh-syntax-highlighting/highlighters' >> ~/.zshrc
-
+echo 'alias gi="git init"' >> ~/.zshrc
+echo 'alias gc="git commit -m"' >> ~/.zshrc
+echo 'source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh' >> ~/.zshrc
